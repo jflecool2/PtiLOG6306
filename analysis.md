@@ -1,7 +1,5 @@
 # Description du projet
-Nous avons choisi d'analyser une librairie Java qui sert d'API pour Slack, une application de chat en équipe. Le projet, trouvé ici https://github.com/Ullink/simple-slack-api, contient donc des fonctionalités pour créer un bot permettant d'interagir avec l'API de Slack.
-
-Le projet contient des tests, mais ceux-ci seront ignorés pour l'analyse qui suit.
+Pour ce projet, nous devions utiliser un projet pré-existant. Notre choix s'est arrêté sur un API de Slack amateur. Slack est un service de clavardage et notification pour équipe de développement informatique. Plusieurs raisons nous ont ammené a ce choix: le projet est amateur, donc plusieurs améliorations seront possible. Le projet est fait en Java, ce qui a l'air d'être le langage le plus fonctionnel aved Ptidej. Le projet est relativement facile a compiler. Le projet est pas trop grand ni trop petit. Le projet contient des tests, mais ceux-ci seront ignorés pour l'analyse qui suit.
 
 # Analyse du projet
 Pour commencer, voici une analyse générale du projet, tirée de Ptidej (commit ID : f811903). Cette analyse est accomplie sans les classes de test. 
@@ -46,6 +44,7 @@ Pour la suite des analyses, nous concentrerons nos efforts sur les ComplexClass,
 
 Les métriques analysées ici se rapportent aux classes qui ont été jugées complexes par les design smells. Seulement certaine métriques ont été choisies pour appuyer l'analyse présentée dans la section Analyse du projet.
 
+**Faire un graphique**
 LOC pour le projet* : 5473
 
 Entity	LOC*	McCabe*	CBO	CIS	DCC	LCOM1	LCOM2	NAD	NOA	NOF	NOM
